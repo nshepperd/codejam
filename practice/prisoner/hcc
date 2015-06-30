@@ -1,0 +1,41 @@
+#!/usr/bin/python2
+# This is a tup run-script that simplifies compiling haskell with ghc.
+# Unlike C, the compilation of haskell sources isn't independent, because
+# the interface is stored together with the implementation. The compilation
+# of a haskell source (.hs) file produces a .hi file (analogous to C headers)
+# which other sources might depend on.
+# So this script scans each of the inputs for dependencies on each other,
+# and outputs the tup build commands in topological sort order
+# with dependencies included.
+import sys, os
+import re
+
+re_import = re.compile('^import +(?:qualified +)?([\w.]+)')
+
+sources = sys.argv[1:]
+deps = {src : set() for src in sources}
+
+# Scan each input file for 'import' lines that create dependencies on other inputs
+for src in sources:
+    with open(src, 'r') as file:
+        for line in file:
+            if re_import.match(line):
+                dep = re_import.match(line).group(1)
+                if dep + '.hs' in sources:
+                    deps[src].add(dep)
+
+# Topological sort, by depth first search
+visited = set()
+def loop(src):
+    visited.add(src)
+    for dep in deps[src]:
+        if dep + '.hs' not in visited:
+            loop(dep + '.hs')
+    if deps[src]:
+        print ': {src} | {deps} |> !ghcc |>'.format(src=src, deps=' '.join(d + '.hi' for d in deps[src]))
+    else:
+        print ': {src} |> !ghcc |>'.format(src=src)
+
+for src in sources:
+    if src not in visited:
+        loop(src)

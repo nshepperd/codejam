@@ -1,0 +1,4 @@
+include_rules
+GFLAGS=-O2
+run $(HCC) *.hs
+: solve-d.o |> !ghc -rtsopts -package containers -package exact-combinatorics |> %B

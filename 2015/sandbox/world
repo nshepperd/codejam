@@ -1,0 +1,6 @@
+fingertree -any
+fgl -any
+hmatrix-glpk -any
+vector -any
+quickcheck -any
+split -any

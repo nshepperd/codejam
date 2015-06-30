@@ -1,0 +1,4 @@
+include_rules
+GFLAGS=-O
+run $(HCC) *.hs
+: solve-a.o |> !ghc -package containers |> %B

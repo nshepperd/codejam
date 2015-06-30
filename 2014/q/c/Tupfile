@@ -1,0 +1,4 @@
+include_rules
+run $(HCC) *.hs
+: solve-c.o |> !ghc -package containers |> %B
+: verify-c.o |> !ghc -package containers |> %B

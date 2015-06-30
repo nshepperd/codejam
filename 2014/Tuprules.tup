@@ -1,0 +1,5 @@
+HCC=$(TUP_CWD)/hcc
+export HOME
+!ghc = |> ^o LINK %o^ ghc -o %o %f |>
+!ghcc = |> ^o GHC %B.o^ ghc -c $(GFLAGS) %f |> %B.hi %B.o
+.gitignore

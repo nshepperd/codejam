@@ -1,0 +1,4 @@
+HSROOT=$(TUP_CWD)
+include hcc/rules
+PACKAGES=-package containers -package split -package QuickCheck -package vector -package hmatrix-glpk
+.gitignore

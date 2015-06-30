@@ -1,0 +1,131 @@
+Configuring hmatrix-0.16.1.5...
+Building hmatrix-0.16.1.5...
+Preprocessing library hmatrix-0.16.1.5...
+
+src/Numeric/LinearAlgebra/Static.hs:16:14: Warning:
+    -XOverlappingInstances is deprecated: instead use per-instance pragmas OVERLAPPING/OVERLAPPABLE/OVERLAPS
+[ 1 of 33] Compiling Data.Packed.Internal.Signatures ( src/Data/Packed/Internal/Signatures.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Internal/Signatures.o )
+[ 2 of 33] Compiling Data.Packed.Internal.Common ( src/Data/Packed/Internal/Common.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Internal/Common.o )
+[ 3 of 33] Compiling Data.Packed.Internal.Vector ( src/Data/Packed/Internal/Vector.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Internal/Vector.o )
+
+src/Data/Packed/Internal/Vector.hs:38:1: Warning:
+    The import of ‘Control.Monad’ is redundant
+      except perhaps to import instances from ‘Control.Monad’
+    To import instances alone, use: import Control.Monad()
+[ 4 of 33] Compiling Data.Packed.Internal.Matrix ( src/Data/Packed/Internal/Matrix.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Internal/Matrix.o )
+[ 5 of 33] Compiling Numeric.Conversion ( src/Numeric/Conversion.hs, dist/dist-sandbox-3af06917/build/Numeric/Conversion.o )
+[ 6 of 33] Compiling Numeric.Vectorized ( src/Numeric/Vectorized.hs, dist/dist-sandbox-3af06917/build/Numeric/Vectorized.o )
+
+src/Numeric/Vectorized.hs:40:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[ 7 of 33] Compiling Data.Packed.Internal ( src/Data/Packed/Internal.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Internal.o )
+[ 8 of 33] Compiling Data.Packed.ST   ( src/Data/Packed/ST.hs, dist/dist-sandbox-3af06917/build/Data/Packed/ST.o )
+[ 9 of 33] Compiling Data.Packed.Foreign ( src/Data/Packed/Foreign.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Foreign.o )
+[10 of 33] Compiling Data.Packed.Development ( src/Data/Packed/Development.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Development.o )
+[11 of 33] Compiling Data.Packed.Matrix ( src/Data/Packed/Matrix.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Matrix.o )
+[12 of 33] Compiling Data.Packed.Vector ( src/Data/Packed/Vector.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Vector.o )
+[13 of 33] Compiling Data.Packed      ( src/Data/Packed.hs, dist/dist-sandbox-3af06917/build/Data/Packed.o )
+[14 of 33] Compiling Numeric.LinearAlgebra.LAPACK ( src/Numeric/LinearAlgebra/LAPACK.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/LAPACK.o )
+[15 of 33] Compiling Data.Packed.Internal.Numeric ( src/Data/Packed/Internal/Numeric.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Internal/Numeric.o )
+
+src/Data/Packed/Internal/Numeric.hs:51:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[16 of 33] Compiling Numeric.LinearAlgebra.Algorithms ( src/Numeric/LinearAlgebra/Algorithms.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/Algorithms.o )
+[17 of 33] Compiling Numeric.Vector   ( src/Numeric/Vector.hs, dist/dist-sandbox-3af06917/build/Numeric/Vector.o )
+[18 of 33] Compiling Numeric.Chain    ( src/Numeric/Chain.hs, dist/dist-sandbox-3af06917/build/Numeric/Chain.o )
+[19 of 33] Compiling Numeric.Matrix   ( src/Numeric/Matrix.hs, dist/dist-sandbox-3af06917/build/Numeric/Matrix.o )
+[20 of 33] Compiling Numeric.LinearAlgebra.Random ( src/Numeric/LinearAlgebra/Random.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/Random.o )
+[21 of 33] Compiling Data.Packed.IO   ( src/Data/Packed/IO.hs, dist/dist-sandbox-3af06917/build/Data/Packed/IO.o )
+
+src/Data/Packed/IO.hs:25:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[22 of 33] Compiling Data.Packed.Numeric ( src/Data/Packed/Numeric.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Numeric.o )
+
+src/Data/Packed/Numeric.hs:74:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[23 of 33] Compiling Numeric.Container ( src/Numeric/Container.hs, dist/dist-sandbox-3af06917/build/Numeric/Container.o )
+[24 of 33] Compiling Numeric.LinearAlgebra ( src/Numeric/LinearAlgebra.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra.o )
+[25 of 33] Compiling Numeric.LinearAlgebra.Util.Convolution ( src/Numeric/LinearAlgebra/Util/Convolution.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/Util/Convolution.o )
+[26 of 33] Compiling Numeric.LinearAlgebra.Util ( src/Numeric/LinearAlgebra/Util.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/Util.o )
+[27 of 33] Compiling Numeric.Sparse   ( src/Numeric/Sparse.hs, dist/dist-sandbox-3af06917/build/Numeric/Sparse.o )
+[28 of 33] Compiling Numeric.LinearAlgebra.Devel ( src/Numeric/LinearAlgebra/Devel.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/Devel.o )
+[29 of 33] Compiling Numeric.LinearAlgebra.Data ( src/Numeric/LinearAlgebra/Data.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/Data.o )
+[30 of 33] Compiling Numeric.LinearAlgebra.Util.CG ( src/Numeric/LinearAlgebra/Util/CG.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/Util/CG.o )
+[31 of 33] Compiling Numeric.LinearAlgebra.HMatrix ( src/Numeric/LinearAlgebra/HMatrix.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/HMatrix.o )
+[32 of 33] Compiling Numeric.LinearAlgebra.Static.Internal ( src/Numeric/LinearAlgebra/Static/Internal.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/Static/Internal.o )
+[33 of 33] Compiling Numeric.LinearAlgebra.Static ( src/Numeric/LinearAlgebra/Static.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/Static.o )
+
+src/Numeric/LinearAlgebra/Static.hs:16:14: Warning:
+    -XOverlappingInstances is deprecated: instead use per-instance pragmas OVERLAPPING/OVERLAPPABLE/OVERLAPS
+[ 1 of 33] Compiling Data.Packed.Internal.Signatures ( src/Data/Packed/Internal/Signatures.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Internal/Signatures.p_o )
+[ 2 of 33] Compiling Data.Packed.Internal.Common ( src/Data/Packed/Internal/Common.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Internal/Common.p_o )
+[ 3 of 33] Compiling Data.Packed.Internal.Vector ( src/Data/Packed/Internal/Vector.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Internal/Vector.p_o )
+
+src/Data/Packed/Internal/Vector.hs:38:1: Warning:
+    The import of ‘Control.Monad’ is redundant
+      except perhaps to import instances from ‘Control.Monad’
+    To import instances alone, use: import Control.Monad()
+[ 4 of 33] Compiling Data.Packed.Internal.Matrix ( src/Data/Packed/Internal/Matrix.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Internal/Matrix.p_o )
+[ 5 of 33] Compiling Numeric.Conversion ( src/Numeric/Conversion.hs, dist/dist-sandbox-3af06917/build/Numeric/Conversion.p_o )
+[ 6 of 33] Compiling Numeric.Vectorized ( src/Numeric/Vectorized.hs, dist/dist-sandbox-3af06917/build/Numeric/Vectorized.p_o )
+
+src/Numeric/Vectorized.hs:40:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[ 7 of 33] Compiling Data.Packed.Internal ( src/Data/Packed/Internal.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Internal.p_o )
+[ 8 of 33] Compiling Data.Packed.ST   ( src/Data/Packed/ST.hs, dist/dist-sandbox-3af06917/build/Data/Packed/ST.p_o )
+[ 9 of 33] Compiling Data.Packed.Foreign ( src/Data/Packed/Foreign.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Foreign.p_o )
+[10 of 33] Compiling Data.Packed.Development ( src/Data/Packed/Development.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Development.p_o )
+[11 of 33] Compiling Data.Packed.Matrix ( src/Data/Packed/Matrix.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Matrix.p_o )
+[12 of 33] Compiling Data.Packed.Vector ( src/Data/Packed/Vector.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Vector.p_o )
+[13 of 33] Compiling Data.Packed      ( src/Data/Packed.hs, dist/dist-sandbox-3af06917/build/Data/Packed.p_o )
+[14 of 33] Compiling Numeric.LinearAlgebra.LAPACK ( src/Numeric/LinearAlgebra/LAPACK.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/LAPACK.p_o )
+[15 of 33] Compiling Data.Packed.Internal.Numeric ( src/Data/Packed/Internal/Numeric.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Internal/Numeric.p_o )
+
+src/Data/Packed/Internal/Numeric.hs:51:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[16 of 33] Compiling Numeric.LinearAlgebra.Algorithms ( src/Numeric/LinearAlgebra/Algorithms.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/Algorithms.p_o )
+[17 of 33] Compiling Numeric.Vector   ( src/Numeric/Vector.hs, dist/dist-sandbox-3af06917/build/Numeric/Vector.p_o )
+[18 of 33] Compiling Numeric.Chain    ( src/Numeric/Chain.hs, dist/dist-sandbox-3af06917/build/Numeric/Chain.p_o )
+[19 of 33] Compiling Numeric.Matrix   ( src/Numeric/Matrix.hs, dist/dist-sandbox-3af06917/build/Numeric/Matrix.p_o )
+[20 of 33] Compiling Numeric.LinearAlgebra.Random ( src/Numeric/LinearAlgebra/Random.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/Random.p_o )
+[21 of 33] Compiling Data.Packed.IO   ( src/Data/Packed/IO.hs, dist/dist-sandbox-3af06917/build/Data/Packed/IO.p_o )
+
+src/Data/Packed/IO.hs:25:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[22 of 33] Compiling Data.Packed.Numeric ( src/Data/Packed/Numeric.hs, dist/dist-sandbox-3af06917/build/Data/Packed/Numeric.p_o )
+
+src/Data/Packed/Numeric.hs:74:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[23 of 33] Compiling Numeric.Container ( src/Numeric/Container.hs, dist/dist-sandbox-3af06917/build/Numeric/Container.p_o )
+[24 of 33] Compiling Numeric.LinearAlgebra ( src/Numeric/LinearAlgebra.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra.p_o )
+[25 of 33] Compiling Numeric.LinearAlgebra.Util.Convolution ( src/Numeric/LinearAlgebra/Util/Convolution.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/Util/Convolution.p_o )
+[26 of 33] Compiling Numeric.LinearAlgebra.Util ( src/Numeric/LinearAlgebra/Util.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/Util.p_o )
+[27 of 33] Compiling Numeric.Sparse   ( src/Numeric/Sparse.hs, dist/dist-sandbox-3af06917/build/Numeric/Sparse.p_o )
+[28 of 33] Compiling Numeric.LinearAlgebra.Devel ( src/Numeric/LinearAlgebra/Devel.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/Devel.p_o )
+[29 of 33] Compiling Numeric.LinearAlgebra.Data ( src/Numeric/LinearAlgebra/Data.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/Data.p_o )
+[30 of 33] Compiling Numeric.LinearAlgebra.Util.CG ( src/Numeric/LinearAlgebra/Util/CG.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/Util/CG.p_o )
+[31 of 33] Compiling Numeric.LinearAlgebra.HMatrix ( src/Numeric/LinearAlgebra/HMatrix.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/HMatrix.p_o )
+[32 of 33] Compiling Numeric.LinearAlgebra.Static.Internal ( src/Numeric/LinearAlgebra/Static/Internal.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/Static/Internal.p_o )
+[33 of 33] Compiling Numeric.LinearAlgebra.Static ( src/Numeric/LinearAlgebra/Static.hs, dist/dist-sandbox-3af06917/build/Numeric/LinearAlgebra/Static.p_o )
+In-place registering hmatrix-0.16.1.5...
+Creating package registration file:
+/tmp/pkgConf-hmatrix-0.16.113651805401540383426.5
+Installing library in
+/home/neil/Dev/codejam/2015/sandbox/lib/x86_64-linux-ghc-7.10.1/hmatr_L4PkPJOtOitDsNLNqXAhss
+Registering hmatrix-0.16.1.5...

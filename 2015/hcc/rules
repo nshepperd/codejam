@@ -1,0 +1,9 @@
+ifeq ($(HSROOT),)
+  HSROOT=$(TUP_CWD)
+endif
+
+HCC=$(TUP_CWD)/hcc -i$(HSROOT) -i.
+GHC_ENV = `$(TUP_CWD)/hsenv $(HSROOT)`
+SANDBOX_GHC=env HOME=/ $(GHC_ENV) ghc
+!ghc = |> ^o LINK %o^ LANG=en_AU.UTF-8 $(SANDBOX_GHC) -O2 -o %o %f |>
+!ghcc = |> ^o GHC %B.o^ LANG=en_AU.UTF-8 $(SANDBOX_GHC) -O2 -c $(GFLAGS) %f |> %B.hi %B.o

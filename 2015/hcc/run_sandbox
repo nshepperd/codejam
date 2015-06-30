@@ -1,0 +1,11 @@
+#!/bin/bash
+ROOT=${PWD}
+HSENV=$(dirname $0)/hsenv
+while [[ "$ROOT" != / ]]; do
+    if [[ -e "${ROOT}/cabal.sandbox.config" ]] ; then
+	CONFIG=$(${HSENV} ${ROOT})
+	exec env ${CONFIG} "$@"
+    fi
+    ROOT=$(dirname $ROOT)
+done
+exit 1

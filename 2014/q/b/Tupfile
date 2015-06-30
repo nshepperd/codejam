@@ -1,0 +1,4 @@
+include_rules
+run $(HCC) *.hs
+: solve-b.o |> !ghc -package containers  |> %B
+# -package digamma
